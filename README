@@ -11,13 +11,7 @@ the java-artifactory repository is a follow up for the java-jenkins project, it 
 4. post build actions : Deploy artifacts to artifactory > refresh repositories
 
 
-	* the build may fail : there is no previous deployments to artifactory server, recommendation : uncheck no.3 for 
-
-
-
-
-
-
+	* the build may fail : there is no previous deployments to artifactory server, recommendation : uncheck no.3 for the first deployment
 
 
 
