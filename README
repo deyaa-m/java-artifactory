@@ -1,0 +1,23 @@
+
+the java-artifactory repository is a follow up for the java-jenkins project, it adds the feature of archiving libs needed to build the app
+		java-jenkins : https://github.com/deyaa-m/java-jenkins.git
+
+# add the artifactory service to the java-jenkins docker-compose file
+
+1. in jenkins > manage plugins > available > artifactory 
+2. from jenkins tab > manage jenkins > configure system > Artifactory > add artifactory server > 
+			ip:port/artifactory , username: admin, password: password, then test the connection
+3. go to the project configuration > build environment > resolve artifacts from artifactory* > refresh repositories 
+4. post build actions : Deploy artifacts to artifactory > refresh repositories
+
+
+	* the build may fail : there is no previous deployments to artifactory server, recommendation : uncheck no.3 for 
+
+
+
+
+
+
+
+
+
